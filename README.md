@@ -142,8 +142,10 @@ class Adapter
 Adapter : +Request()
 
 ```
-<code>
 
+- code
+
+```
 ```mermaid
 classDiagram
 Client o-- ITarget : Aggregation
@@ -163,7 +165,11 @@ class Adapter
 Adapter : +Request()
 
 ```
-<code>
+
+```
+
+<hr>
+
 
 
 출처 : https://mermaid.js.org/syntax/classDiagram.html
