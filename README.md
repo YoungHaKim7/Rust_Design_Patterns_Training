@@ -142,6 +142,28 @@ class Adapter
 Adapter : +Request()
 
 ```
+<code>
+
+```mermaid
+classDiagram
+Client o-- ITarget : Aggregation
+ITarget <|.. Adapter : Realization
+Adaptee <|-- Adapter : Inheritance
+
+class ITarget
+<<interface>> ITarget
+ITarget : +Request()
+
+class Adaptee
+Adaptee : +SpecificRequest()
+
+
+note for Adapter "Request() invokes<br>SpecificRequest()"
+class Adapter
+Adapter : +Request()
+
+```
+<code>
 
 
 출처 : https://mermaid.js.org/syntax/classDiagram.html
