@@ -121,6 +121,28 @@ classM ..|> classN : Realization
 classO .. classP : Link(Dashed)
 ```
 
+# Adapter Pattern(어탭터 패턴)
+
+```mermaid
+classDiagram
+Client o-- ITarget : Aggregation
+ITarget <|.. Adapter : Realization
+Adaptee <|-- Adapter : Inheritance
+
+class ITarget
+<<interface>> ITarget
+ITarget : +Request()
+
+class Adaptee
+Adaptee : +SpecificRequest()
+
+
+note for Adapter "Request() invokes<br>SpecificRequest()"
+class Adapter
+Adapter : +Request()
+
+```
+
 
 출처 : https://mermaid.js.org/syntax/classDiagram.html
 
