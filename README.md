@@ -51,11 +51,17 @@ https://realzero0.github.io/study/2017/06/12/%EB%94%94%EC%9E%90%EC%9D%B8-%ED%8C%
         <td>Behavioral</td>
     </tr>
     <tr align="center">
-        <td>Date</td>
-        <td>Title & Link</td>
-        <td>Title & Link</td>
-        <td>Title & Link</td>
-        <td>Title & Link</td>
+        <td rowspan="2">By Scope</td>
+        <td>Class</td>
+        <td>Factoriy<br>Method</td>
+        <td>Adapter<br>(class)</td>
+        <td>Interpreter<br>-Template<br>Method</td>
+    </tr>
+    <tr align="center">
+        <td>Object</td>
+        <td>Abstract Factory<br>Builder</td>
+        <td>Adapter</td>
+        <td>Chain of<br>Responsibility</td>
     </tr>
 </table>
 
