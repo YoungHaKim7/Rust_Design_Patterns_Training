@@ -53,15 +53,15 @@ https://realzero0.github.io/study/2017/06/12/%EB%94%94%EC%9E%90%EC%9D%B8-%ED%8C%
     <tr align="center">
         <td rowspan="2">By Scope</td>
         <td>Class</td>
-        <td><li>Factoriy<br>Method</li></td>
-        <td><li>Adapter</li>(class)</td>
-        <td><li>Interpreter</li><li>Template<br>Method</li></td>
+        <td align="left"><li>Factoriy<br>Method</li></td>
+        <td align="left"><li>Adapter</li>(class)</td>
+        <td align="left"><li>Interpreter</li><li>Template<br>Method</li></td>
     </tr>
     <tr align="center">
         <td>Object</td>
-        <td><li>Abstract Factory</li><li>Builder</li><li>Prototype</li><li>Singleton</li></td>
-        <td><li>Adapter</li>(object)<li>Bridge</li><li>Composite</li><li>Decorator</li><li>Facade</li><li>Flyweight</li><li>Proxy</li></td>
-        <td><li>Chain of Responsibility</li><li>Command</li><li>Iterator</li><li>Mediator</li><li>Memento</li><li>Observer</li><li>State</li><li>Strategy</li><li>Visitor</li></td>
+        <td align="left"><li>Abstract Factory</li><li>Builder</li><li>Prototype</li><li>Singleton</li></td>
+        <td align="left"><li>Adapter</li>(object)<li>Bridge</li><li>Composite</li><li>Decorator</li><li>Facade</li><li>Flyweight</li><li>Proxy</li></td>
+        <td align="left"><li>Chain of Responsibility</li><li>Command</li><li>Iterator</li><li>Mediator</li><li>Memento</li><li>Observer</li><li>State</li><li>Strategy</li><li>Visitor</li></td>
     </tr>
 </table>
 
