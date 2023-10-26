@@ -54,8 +54,8 @@ https://realzero0.github.io/study/2017/06/12/%EB%94%94%EC%9E%90%EC%9D%B8-%ED%8C%
         <td rowspan="2">By Scope</td>
         <td>Class</td>
         <td><li>Factoriy<br>Method</li></td>
-        <td>Adapter<br>(class)</td>
-        <td>Interpreter<br>-Template<br>Method</td>
+        <td><li>Adapter</li><br>(class)</td>
+        <td><li>Interpreter</li><li>Template<br>Method</li></td>
     </tr>
     <tr align="center">
         <td>Object</td>
