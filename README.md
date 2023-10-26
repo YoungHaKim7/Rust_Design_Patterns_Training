@@ -36,6 +36,31 @@ https://refactoring.guru/design-patterns/rust
 
 <br>
 
+# GoF(Gang of Four)에서 23가지 디자인 패턴을 3가지 유형으로 분류
+
+https://realzero0.github.io/study/2017/06/12/%EB%94%94%EC%9E%90%EC%9D%B8-%ED%8C%A8%ED%84%B4-%EC%A0%95%EB%A6%AC.html
+ 
+<table border="1">
+    <tr>
+    <td colspan="5" align="center">Design Patterns</td>
+    </tr>
+    <tr align="center">
+        <td colspan="2"></td>
+        <td>Creational</td>
+        <td>Structural</td>
+        <td>Behavioral</td>
+    </tr>
+    <tr align="center">
+        <td>Date</td>
+        <td>Title & Link</td>
+        <td>Title & Link</td>
+        <td>Title & Link</td>
+        <td>Title & Link</td>
+    </tr>
+</table>
+
+<hr>
+
 
 # Design principles
 
