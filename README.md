@@ -70,6 +70,30 @@ https://realzero0.github.io/study/2017/06/12/%EB%94%94%EC%9E%90%EC%9D%B8-%ED%8C%
 <thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td><code>&lt;|--</code></td><td>Inheritance</td></tr><tr><td><code>*--</code></td><td>Composition</td></tr><tr><td><code>o--</code></td><td>Aggregation</td></tr><tr><td><code>--&gt;</code></td><td>Association</td></tr><tr><td><code>--</code></td><td>Link (Solid)</td></tr><tr><td><code>..&gt;</code></td><td>Dependency</td></tr><tr><td><code>..|&gt;</code></td><td>Realization</td></tr><tr><td><code>..</code></td><td>Link (Dashed)</td></tr></tbody>
 </table>
 
+<code>
+<span class="line"><span style="color:#F97583;">classDiagram</span></span>
+<span class="line"><span style="color:#B392F0;">classA</span><span style="color:#E1E4E8;"> </span><span style="color:#F97583;">&lt;|--</span><span style="color:#E1E4E8;"> </span><span style="color:#B392F0;">classB</span></span>
+<span class="line"><span style="color:#B392F0;">classC</span><span style="color:#E1E4E8;"> </span><span style="color:#F97583;">*--</span><span style="color:#E1E4E8;"> </span><span style="color:#B392F0;">classD</span></span>
+<span class="line"><span style="color:#B392F0;">classE</span><span style="color:#E1E4E8;"> </span><span style="color:#F97583;">o--</span><span style="color:#E1E4E8;"> </span><span style="color:#B392F0;">classF</span></span>
+<span class="line"><span style="color:#B392F0;">classG</span><span style="color:#E1E4E8;"> </span><span style="color:#F97583;">&lt;--</span><span style="color:#E1E4E8;"> </span><span style="color:#B392F0;">classH</span></span>
+<span class="line"><span style="color:#B392F0;">classI</span><span style="color:#E1E4E8;"> </span><span style="color:#F97583;">--</span><span style="color:#E1E4E8;"> </span><span style="color:#B392F0;">classJ</span></span>
+<span class="line"><span style="color:#B392F0;">classK</span><span style="color:#E1E4E8;"> </span><span style="color:#F97583;">&lt;..</span><span style="color:#E1E4E8;"> </span><span style="color:#B392F0;">classL</span></span>
+<span class="line"><span style="color:#B392F0;">classM</span><span style="color:#E1E4E8;"> </span><span style="color:#F97583;">&lt;|..</span><span style="color:#E1E4E8;"> </span><span style="color:#B392F0;">classN</span></span>
+<span class="line"><span style="color:#B392F0;">classO</span><span style="color:#E1E4E8;"> </span><span style="color:#F97583;">..</span><span style="color:#E1E4E8;"> </span><span style="color:#B392F0;">classP</span></span>
+</code>
+
+```mermaid
+classDiagram
+classA <|-- classB
+classC *-- classD
+classE o-- classF
+classG <-- classH
+classI -- classJ
+classK <.. classL
+classM <|.. classN
+classO .. classP
+```
+
 <hr>
 
 
