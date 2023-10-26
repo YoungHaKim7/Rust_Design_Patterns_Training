@@ -216,6 +216,22 @@ Prototype : +Clone()
   
 ```
 
+
+# Singleton Pattern(싱글톤 패턴)
+
+```mermaid
+classDiagram
+  note "Returns the <br>uniqueInstance"
+  class Singleton {
+     - static uniqueInstance : Singleton = new Singleton( 
+     - Singleton()
+     -static readonly Singleton()
+     +static Instance() : Singleton()
+  }
+
+
+```
+
 <br>
 
 <hr>
