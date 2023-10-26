@@ -66,7 +66,9 @@ https://realzero0.github.io/study/2017/06/12/%EB%94%94%EC%9E%90%EC%9D%B8-%ED%8C%
 </table>
 
 
+<table border="1">
 <thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td><code>&lt;|--</code></td><td>Inheritance</td></tr><tr><td><code>*--</code></td><td>Composition</td></tr><tr><td><code>o--</code></td><td>Aggregation</td></tr><tr><td><code>--&gt;</code></td><td>Association</td></tr><tr><td><code>--</code></td><td>Link (Solid)</td></tr><tr><td><code>..&gt;</code></td><td>Dependency</td></tr><tr><td><code>..|&gt;</code></td><td>Realization</td></tr><tr><td><code>..</code></td><td>Link (Dashed)</td></tr></tbody>
+</table>
 
 <hr>
 
