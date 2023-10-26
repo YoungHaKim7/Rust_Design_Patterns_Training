@@ -61,7 +61,7 @@ https://realzero0.github.io/study/2017/06/12/%EB%94%94%EC%9E%90%EC%9D%B8-%ED%8C%
         <td>Object</td>
         <td><li>Abstract Factory</li><li>Builder</li><li>Prototype</li><li>Singleton</li></td>
         <td><li>Adapter</li>(object)<li>Bridge</li><li>Composite</li><li>Decorator</li><li>Facade</li><li>Flyweight</li><li>Proxy</li></td>
-        <td>Chain of<br>Responsibility</td>
+        <td><li>Chain of Responsibility</li><li>Command</li><li>Iterator</li><li>Mediator</li><li>Memento</li><li>Observer</li><li>State</li><li>Strategy</li><li>Visitor</li></td>
     </tr>
 </table>
 
