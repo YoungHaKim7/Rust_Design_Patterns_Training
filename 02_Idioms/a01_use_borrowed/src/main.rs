@@ -1,4 +1,5 @@
-fn three_vowels(word: &String) -> bool {
+// fn three_vowels(word: &String) -> bool {
+fn three_vowels(word: &str) -> bool {
     let mut vowel_count = 0;
     for c in word.chars() {
         match c {
