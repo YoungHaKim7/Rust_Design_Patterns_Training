@@ -146,6 +146,7 @@ Adapter : +Request()
 - code
 
 ```
+
 ```mermaid
 classDiagram
 Client o-- ITarget : Aggregation
@@ -163,8 +164,6 @@ Adaptee : +SpecificRequest()
 note for Adapter "Request() invokes<br>SpecificRequest()"
 class Adapter
 Adapter : +Request()
-
-```
 
 ```
 
