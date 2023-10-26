@@ -28,7 +28,7 @@ https://refactoring.guru/design-patterns/rust
     - [Design Pattern] GoF(Gang of Four) 디자인 패턴  그 유명한 GoF라 불리운다.
   - https://www.amazon.com/Design-Patterns-Object-Oriented-Addison-Wesley-Professional-ebook/dp/B000SEIBB8
 
-
+- 한국분이 자바로 정리함. https://realzero0.github.io/study/2017/06/12/%EB%94%94%EC%9E%90%EC%9D%B8-%ED%8C%A8%ED%84%B4-%EC%A0%95%EB%A6%AC.html
 
 <hr>
 
