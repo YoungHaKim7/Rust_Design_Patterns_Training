@@ -23,7 +23,9 @@ https://github.com/rust-unofficial/patterns
 https://refactoring.guru/design-patterns/rust
 
 # 오리지날 디자인 패턴 책(1994년에 만들어진 책 - 바이블 ^^)
-- Design Patterns: Elements of Reusable Object-Oriented Software 1st Edition, Kindle Edition by Gamma Erich (Author), Helm Richard (Author), Johnson Ralph (Author), Vlissides John (Author), & 1 more Format: Kindle Edition
+- Design Patterns: Elements of Reusable Object-Oriented Software 1st Edition, Kindle Edition
+  - by Gamma Erich (Author), Helm Richard (Author), Johnson Ralph (Author), Vlissides John (Author), & 1 more Format: Kindle Edition
+    - [Design Pattern] GoF(Gang of Four) 디자인 패턴  그 유명한 GoF라 불리운다.
   - https://www.amazon.com/Design-Patterns-Object-Oriented-Addison-Wesley-Professional-ebook/dp/B000SEIBB8
 
 
