@@ -190,6 +190,34 @@ Prototype : +Clone()
 
 ```
 
+- code
+
+```
+classDiagram
+Class o-- IPrototype : Aggregation
+IPrototype <|.. Prototype : Realization
+IPrototype <|.. PrototypeManager : Realization
+
+Class Class
+Class : +Operation()
+
+class IPrototype
+<<interface>> IPrototype
+IPrototype : +Request()
+IPrototype : +DeepCopy()
+
+class PrototypeManager
+
+
+
+class Prototype
+Prototype : +Clone()
+  
+  
+```
+
+<br>
+
 <hr>
 
 
