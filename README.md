@@ -232,6 +232,40 @@ classDiagram
 
 ```
 
+
+# Composite Pattern(컴포지트 패턴)
+
+```mermaid
+classDiagram
+Component <-- Client : Association
+Component -- Leaf
+Component -- Composite
+Component <--o Composite :children
+
+Class Client
+
+
+class Component {
+    Operation()
+    Add(Component)
+    Remove(Component)
+    GetChild(int)
+}
+
+
+class Leaf {
+    Operation()
+}
+
+note "forall g in children<br>  g.Operation();"
+class Composite {
+    Operation()
+    Add(Component)
+    Remove(Component)
+    GetChild(int)
+}
+```
+
 <br>
 
 <hr>
