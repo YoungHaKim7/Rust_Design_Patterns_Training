@@ -94,6 +94,34 @@ classM <|.. classN
 classO .. classP
 ```
 
+
+- 그림으로 보면서 암기하기 
+
+<code>
+<span class="line"><span style="color:#F97583;">classDiagram</span></span>
+<span class="line"><span style="color:#B392F0;">classA</span><span style="color:#E1E4E8;"> </span><span style="color:#F97583;">--|&gt;</span><span style="color:#E1E4E8;"> </span><span style="color:#B392F0;">classB</span><span style="color:#E1E4E8;"> </span><span style="color:#F97583;">:</span><span style="color:#E1E4E8;"> </span><span style="color:#9ECBFF;">Inheritance</span></span>
+<span class="line"><span style="color:#B392F0;">classC</span><span style="color:#E1E4E8;"> </span><span style="color:#F97583;">--*</span><span style="color:#E1E4E8;"> </span><span style="color:#B392F0;">classD</span><span style="color:#E1E4E8;"> </span><span style="color:#F97583;">:</span><span style="color:#E1E4E8;"> </span><span style="color:#9ECBFF;">Composition</span></span>
+<span class="line"><span style="color:#B392F0;">classE</span><span style="color:#E1E4E8;"> </span><span style="color:#F97583;">--o</span><span style="color:#E1E4E8;"> </span><span style="color:#B392F0;">classF</span><span style="color:#E1E4E8;"> </span><span style="color:#F97583;">:</span><span style="color:#E1E4E8;"> </span><span style="color:#9ECBFF;">Aggregation</span></span>
+<span class="line"><span style="color:#B392F0;">classG</span><span style="color:#E1E4E8;"> </span><span style="color:#F97583;">--&gt;</span><span style="color:#E1E4E8;"> </span><span style="color:#B392F0;">classH</span><span style="color:#E1E4E8;"> </span><span style="color:#F97583;">:</span><span style="color:#E1E4E8;"> </span><span style="color:#9ECBFF;">Association</span></span>
+<span class="line"><span style="color:#B392F0;">classI</span><span style="color:#E1E4E8;"> </span><span style="color:#F97583;">--</span><span style="color:#E1E4E8;"> </span><span style="color:#B392F0;">classJ</span><span style="color:#E1E4E8;"> </span><span style="color:#F97583;">:</span><span style="color:#E1E4E8;"> </span><span style="color:#9ECBFF;">Link(Solid)</span></span>
+<span class="line"><span style="color:#B392F0;">classK</span><span style="color:#E1E4E8;"> </span><span style="color:#F97583;">..&gt;</span><span style="color:#E1E4E8;"> </span><span style="color:#B392F0;">classL</span><span style="color:#E1E4E8;"> </span><span style="color:#F97583;">:</span><span style="color:#E1E4E8;"> </span><span style="color:#9ECBFF;">Dependency</span></span>
+<span class="line"><span style="color:#B392F0;">classM</span><span style="color:#E1E4E8;"> </span><span style="color:#F97583;">..|&gt;</span><span style="color:#E1E4E8;"> </span><span style="color:#B392F0;">classN</span><span style="color:#E1E4E8;"> </span><span style="color:#F97583;">:</span><span style="color:#E1E4E8;"> </span><span style="color:#9ECBFF;">Realization</span></span>
+<span class="line"><span style="color:#B392F0;">classO</span><span style="color:#E1E4E8;"> </span><span style="color:#F97583;">..</span><span style="color:#E1E4E8;"> </span><span style="color:#B392F0;">classP</span><span style="color:#E1E4E8;"> </span><span style="color:#F97583;">:</span><span style="color:#E1E4E8;"> </span><span style="color:#9ECBFF;">Link(Dashed)</span></span>
+</code>
+
+```mermaid
+classDiagram
+classA --|> classB : Inheritance
+classC --* classD : Composition
+classE --o classF : Aggregation
+classG --> classH : Association
+classI -- classJ : Link(Solid)
+classK ..> classL : Dependency
+classM ..|> classN : Realization
+classO .. classP : Link(Dashed)
+```
+
+
 출처 : https://mermaid.js.org/syntax/classDiagram.html
 
 # 다이어그램으로 코드 이해(mermaid)
