@@ -146,8 +146,6 @@ Adapter : +Request()
 - code
 
 ```
-
-```mermaid
 classDiagram
 Client o-- ITarget : Aggregation
 ITarget <|.. Adapter : Realization
@@ -164,6 +162,31 @@ Adaptee : +SpecificRequest()
 note for Adapter "Request() invokes<br>SpecificRequest()"
 class Adapter
 Adapter : +Request()
+
+```
+
+# Prototype Pattern(프로토 타입 패턴)
+
+```mermaid
+classDiagram
+Class o-- IPrototype : Aggregation
+IPrototype <|.. Prototype : Realization
+IPrototype <|.. PrototypeManager : Realization
+
+Class Class
+Class : +Operation()
+
+class IPrototype
+<<interface>> IPrototype
+IPrototype : +Request()
+IPrototype : +DeepCopy()
+
+class PrototypeManager
+
+
+
+class Prototype
+Prototype : +Clone()
 
 ```
 
