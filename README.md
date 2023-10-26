@@ -42,7 +42,7 @@ https://realzero0.github.io/study/2017/06/12/%EB%94%94%EC%9E%90%EC%9D%B8-%ED%8C%
  
 <table border="1">
     <tr>
-    <td colspan="5" align="center">Design Patterns</td>
+    <td colspan="5" align="center">Design Patterns<br>By Purpose</td>
     </tr>
     <tr align="center">
         <td colspan="2"></td>
@@ -54,13 +54,13 @@ https://realzero0.github.io/study/2017/06/12/%EB%94%94%EC%9E%90%EC%9D%B8-%ED%8C%
         <td rowspan="2">By Scope</td>
         <td>Class</td>
         <td><li>Factoriy<br>Method</li></td>
-        <td><li>Adapter</li><br>(class)</td>
+        <td><li>Adapter</li>(class)</td>
         <td><li>Interpreter</li><li>Template<br>Method</li></td>
     </tr>
     <tr align="center">
         <td>Object</td>
-        <td>Abstract Factory<br>Builder</td>
-        <td>Adapter</td>
+        <td><li>Abstract Factory</li><li>Builder</li><li>Prototype</li><li>Singleton</li></td>
+        <td><li>Adapter</li>(object)<li>Bridge</li><li>Composite</li><li>Decorator</li><li>Facade</li><li>Flyweight</li><li>Proxy</li></td>
         <td>Chain of<br>Responsibility</td>
     </tr>
 </table>
