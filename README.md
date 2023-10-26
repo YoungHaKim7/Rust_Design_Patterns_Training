@@ -8,6 +8,8 @@ Rust is not object-oriented, and the combination of all its characteristics, suc
 
 https://rust-unofficial.github.io/patterns/intro.html
 
+https://github.com/rust-unofficial/patterns
+
 <br>
 
 <hr>
